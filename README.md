@@ -3,3 +3,4 @@
 
 
 Пример установки [Запись установки](https://asciinema.org/a/2mfWUYd8UdclcdIWLYw8bR7nB)
+Пример работы [Запись работы](https://asciinema.org/a/RcqRikE3JVIzwUQaIRdl7lu8n)

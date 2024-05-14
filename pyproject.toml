@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "hexlet-code"
+version = "0.1.0"
+description = ""
+authors = ["snk"]
+readme = "README.md"
+packages = [{include = "page_loader"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest-cov = "^4.0.0"
+beautifulsoup4 = "^4.12.2"
+requests-mock = "^1.10.0"
+pytest = "^6.2.5"
+flake8 = "^3.9.2"
+validators = "^0.20.0"
+
+[tool.poetry.scripts]
+page-loader = "page_loader.bin.page_loader_script:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
